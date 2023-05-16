@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Commercial_Space_Travel</title>
+<meta charset="UTF-8">
+<meta name="description" content="commercial space travel first draft website">
+<meta name="keywords" content="space travel, astronaut, commercial">
+<meta name="author" content="team 5025">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color:#DFF6FF">
+    <center>
+      <h1>
+          <font color=#1363DF size=10 face=Monaco>1 Additional Flight</h1></center>
+<div class="row">
+  <div class="column">
+      <h2>
+          <font color=#47B5FF size=5 face=Courier>Price</h2>
+      <p>
+          <font color=#08263D size=3 face=Courier>$1 Million</p>
+      <h2>
+          <font color=#47B5FF size=5 face=Courier>Includes</h2>
+      <p>
+          <font color=#08263D size=3 face=Courier>- Meals and Bedding<br>
+          - 7 days per flight<br>
+          - certified astronaut on board<br>
+          - standard Genesis safety procedures</p>
+          <form>  
+            <b> Please select your flight date. </b>  
+            <select id = "flightDate" onchange = "flightDate1()" >  
+            <option> ---Flight Date--- </option>  
+            <option> June 30th </option>  
+            <option> July 15th </option>  
+            <option> August 1st </option> 
+            <option> August 16th </option>
+            </select> 
+          </form>
+          <a href="flight_payments.html" id="submitbutton">Submit</a>
+          <style>
+          #flightDate {
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 10px;
+            width: 120px;
+            height: fit-content; 
+            text-decoration: none;
+          }
+
+          #submitbutton {
+            background-color: #47B5FF;
+            border-radius: 20px;
+            color: #fff;
+            font-family: 'Courier';
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            margin-left: 10px;
+          }
+          </style>
+  </div>
+          <div class="column">
+              <br><br><br><br><br>
+              <div class="container">
+                <img src="ship1.webp" alt="ship" style="width:100%; height: 500px; border-radius: 10%;">
+            </div>
+            </div>
+            <style>
+              .column {
+              width: 705px;
+              float: left;
+            }
+          </style>
+          </div>
+          <footer>
+            <div class="returnbutton">
+              <a href="package_shop.html">Return to Shop </a>
+              <style>
+                  .returnbutton {
+                      background-color: #DFF6FF;
+                      border-radius: 20px;
+                      padding: 10px;
+                      cursor: pointer;
+                      margin-top: 10px;
+                      margin-bottom: 4px;
+                      border: none;
+                      width: fit-content;
+                      height: 40px;
+                  }
+                  .returnbutton a {
+                      color: #08263D;
+                      text-decoration: none;
+                      font-size: 20px;
+                      font-family: 'Courier';
+                  }
+              </style>
+            </footer>
+</body>

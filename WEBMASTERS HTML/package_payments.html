@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Commercial_Space_Travel</title>
+</head>
+<meta name="description" content="commercial space travel first draft website">
+<meta name="keywords" content="space travel, astronaut, commercial">
+<meta name="author" content="team 5025">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body style="background-color:#DFF6FF">
+    <h1>
+      <center>
+        <font color=#1363DF size=10 face=Monaco>Package Payments</h1></center>
+    <h2>
+        <font color=#47B5FF size=5 face=Courier></h2>
+<!-- package payment form -->
+<form>
+    <p><font color=#08263D size=3 face=Courier>Contact Information</p>
+    <input type="text" placeholder="First Name" name="Name" id="formblanks">
+    <input type="text" placeholder="Last Name" name="Name" id="formblanks">
+    <input type="text" placeholder="Email" name="Email" id="formblanks">
+    <input type="text" placeholder="Phone Number" name="Phone Number" id="formblanks">
+    <p><font color=#08263D size=3 face=Courier>Emergency Contacts</p>
+    <input type="text" placeholder="First Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Last Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Phone Number" name="Emergency Phone Number" id="formblanks"><br>
+    <input type="text" placeholder="First Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Last Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Phone Number" name="Emergency Phone Number" id="formblanks"><br>
+    <input type="text" placeholder="First Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Last Name" name="Emergency Name" id="formblanks">
+    <input type="text" placeholder="Phone Number" name="Emergency Phone Number" id="formblanks">
+    <p><font color=#08263D size=3 face=Courier>Address</p>
+    <input type="text" placeholder="Street" name="Address" id="formblanks">
+    <input type="text" placeholder="City" name="Address" id="formblanks">
+    <input type="text" placeholder="State" name="Address" id="formblanks">
+    <input type="text" placeholder="Zip Code" name="Address" id="formblanks">
+    <p><font color=#08263D size=3 face=Courier>Insurance Information</p>
+    <input type="text" placeholder="Company" name="Company" id="formblanks">
+    <input type="text" placeholder="Policy Number" name="Policy Number" id="formblanks">
+    <input type="text" placeholder="Address" name="Address" id="formblanks">
+    <input type="text" placeholder="Phone Number" name="Phone Number" id="formblanks">
+    <p><font color=#08263D size=3 face=Courier>Healthcare Information</p>
+    <input type="text" placeholder="Provider" name="Provider" id="formblanks">
+    <input type="text" placeholder="Doctor's Name" name="Name" id="formblanks">
+    <input type="text" placeholder="Doctor's Phone Number" name="Phone Number" id="formblanks">
+    <input type="text" placeholder="Doctor's Email" name="Email" id="formblanks">
+    <p><font color=#08263D size=3 face=Courier>Billing Information</p>
+    <input type="text" placeholder="BitCoin Company" name="Company" id="formblanks">
+    <input type="text" placeholder="BitCoin Account" name="Number" id="formblanks">
+    <input type="text" placeholder="BitCoin PIN" name="PIN" id="formblanks"><br>
+    <form>  
+      <b> Select your payment plan here. </b>  
+      <select id = "payPlans" onchange = "payPlan()" >  
+      <option> ---Payment Plans--- </option>  
+      <option> Pay in full </option>  
+      <option> Down payment with adjustable monthly payments </option>  
+      <option> Other </option> 
+      </select>  
+      <p> If you selected other, please detail your chosen payment plan here.  
+        <input type = "text" placeholder="Other..." id = "other" size = "20" </p>  
+      </form>
+    <a href="thank_you.html" id="submitbutton">Submit</a>
+    <style>
+      #formblanks {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px;
+        width: fit-content;
+        height: fit-content;
+      }
+      #submitbutton {
+        background-color: #47B5FF;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Courier';
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        margin-left: 10px;
+        }
+
+      #payPlans {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px;
+        width: 150px;
+        height: fit-content; 
+        text-decoration: none;
+      }
+      #other {
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px;
+        width: fit-content;
+        height: fit-content; 
+        text-decoration: none;
+      }
+    </style>
+  </form>
+  <footer>
+    <div class="returnbutton">
+      <a href="package_shop.html">Return to Shop </a>
+      <style>
+          .returnbutton {
+              background-color: #DFF6FF;
+              border-radius: 20px;
+              padding: 10px;
+              cursor: pointer;
+              margin-top: 10px;
+              margin-bottom: 4px;
+              border: none;
+              width: fit-content;
+              height: 40px;
+          }
+          .returnbutton a {
+              color: #08263D;
+              text-decoration: none;
+              font-size: 20px;
+              font-family: 'Courier';
+          }
+      </style>
+    </footer>
+</body>     
